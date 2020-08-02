@@ -1,0 +1,19 @@
+{
+  "moduleDirectories": ["node_modules", "src"],
+  "moduleFileExtensions": ["js", "json", "ts"],
+  "testEnvironment": "node",
+  "testRegex": ".spec.ts$",
+  "transform": {
+    "^.+\\.ts$": "ts-jest"
+  },
+  "coverageDirectory": "./coverage",
+  "collectCoverage": true,
+  "moduleNameMapper": {
+    "^@modules(.*)$": "<rootDir>/src/modules$1",
+    "^@common(.*)$": "<rootDir>/src/common$1",
+    "^@environment(.*)$": "<rootDir>/src/environment$1",
+    "^@configs(.*)$": "<rootDir>/src/configs$1",
+    "^@shared(.*)$": "<rootDir>/src/shared$1",
+    "^@utils(.*)$": "<rootDir>/src/utils$1"
+  }
+}

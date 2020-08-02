@@ -1,0 +1,29 @@
+{
+  "recommendations": [
+    "aaron-bond.better-comments",
+    "avraammavridis.vsc-sort-react",
+    "ChakrounAnas.turbo-console-log",
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "EditorConfig.EditorConfig",
+    "esbenp.prettier-vscode",
+    "Fooxly.provision-lens",
+    "jpoissonnier.vscode-styled-components",
+    "mikestead.dotenv",
+    "mmatthiesen.localize-lens",
+    "ms-azuretools.vscode-docker",
+    "ms-vsliveshare.vsliveshare",
+    "msjsdiag.debugger-for-chrome",
+    "naumovs.color-highlight",
+    "OfHumanBondage.react-proptypes-intellisense",
+    "pflannery.vscode-versionlens",
+    "PKief.material-icon-theme",
+    "rocketseat.RocketseatReactJS",
+    "rocketseat.RocketseatReactNative",
+    "usemobile.UsemobileReactJS",
+    "usernamehw.errorlens",
+    "wix.vscode-import-cost",
+    "yzhang.markdown-all-in-one"
+  ],
+  "unwantedRecommendations": []
+}
