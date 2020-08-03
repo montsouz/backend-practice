@@ -40,6 +40,13 @@ describe('Product', () => {
       .expect(HttpStatus.CREATED);
   });
 
+  it(`POST/ no item at all ! And It should reject`, async () => {
+    await request(app.getHttpServer())
+      .post('/product')
+      .send(null)
+      .expect(HttpStatus.FORBIDDEN);
+  });
+
   afterAll(async () => {
     await redisClient.flushdb();
     await app.close();
