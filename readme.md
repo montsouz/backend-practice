@@ -2,8 +2,10 @@
 
 This is how I solved these two challenges bellow.
 
-[Part 01]("./part-1/readme.md")
-[Part 02]("./part-2/readme.md")
+- [Part 01]("./part-1/../../readme.md")
+- [Part 02]("./part-2/../../readme.md")
+
+Here are the descriptions
 
 ````
 
