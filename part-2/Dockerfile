@@ -8,5 +8,3 @@ COPY . .
 RUN go get github.com/pilu/fresh
 
 WORKDIR /go/src/app/src
-
-CMD ["fresh" ]
